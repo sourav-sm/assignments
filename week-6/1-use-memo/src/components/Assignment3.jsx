@@ -12,7 +12,11 @@ const Assignment3 = () => {
     ]);
 
     // Your code starts here
-    const totalValue = 0;
+    let totalValue = 0;
+    for(const item of items){
+        totalValue+=item.value;
+    }
+    
     // Your code ends here
     return (
         <div>
